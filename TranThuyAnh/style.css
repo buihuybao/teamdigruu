@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+.img-header{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    position: relative;
+}
+
+.img-header video{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(34, 34, 34);
+    mix-blend-mode: overlay;
+    z-index: 10;
+}
+
+.text-header{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-big{
+    font-size: 30px;
+    letter-spacing: 30px;
+    color: #fff;
+}
+
+.text-small{
+    font-size: 30px;
+    color: #fff;
+
+}
+
+section{
+    width: 100%;
+    display: block;
+    padding-bottom: 50px;
+    background-color: rgba(199, 199, 199, 0.144);
+}
+
+.text-about{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+}
+
+.text-about i{
+    margin-left: 100px;
+    font-size: 60px;
+    color: orange;
+
+}
+
+.about{
+    text-align: start;
+    line-height: 35px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.about h1{
+    font-size: 40px;
+}
+
+.about p{
+    font-size: 20px;
+    color: rgb(151, 151, 151);
+}
+
+.my-info{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.avt{
+    width: 30%;
+    margin-left: 100px;
+}
+
+.avt img{
+    border-radius: 50%;
+    width: 100%;
+    border: 3px solid rgb(0, 87, 138);
+
+}
+
+.info-user{
+    height: 100%;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.info{
+    width: 100%;
+    height: 70%;
+    text-align: start;
+}
+
+.more-info{
+
+    width: 100%;
+    height: 30%;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(54, 54, 54);
+}
+
+.more-info p{
+    color: rgb(128, 128, 128);
+    letter-spacing: 7px;
+}
+
+.more-info h1{
+    color: rgb(0, 119, 255);
+    padding-top: 50px;
+}
+
+.contact{
+    padding-left: 60px;
+    width: 35%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    position: relative;
+}
+
+.contact i{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 45, 128);
+    /* color: #fff; */
+    /* background-color: rgb(0, 45, 128); */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.contact h1{
+    font-size: 15px;
+    /* color: rgb(141, 141, 141); */
+    color: rgba(0, 57, 95, 0.788);
+}
+
+.contact p{
+    font-size: 15px;
+}
+
+.contact a{
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.button{
+    background-color: rgb(0, 110, 153);
+    width: 150px;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.resume{
+    width: 100%;
+    height: 130px;
+    /* background-color: rgb(192, 192, 192); */
+    background-color: rgb(0, 174, 255);
+    /* background: linear-gradient(to right, #0066ff -4%, #00ffff 105%); */
+    line-height: 130px;
+    display: flex;
+}
+
+.resume h1{
+    margin-left: 100px;
+    font-size: 30px;
+    /* color: rgb(133, 133, 133); */
+    color: #fff;
+}
+
+.resume button{
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(95, 95, 95);
+    cursor: pointer;
+}
+
+.skill{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    text-align: start;
+    background-color: rgb(250, 250, 250);
+}
+
+.more-skill{
+    width: 40%;
+    display: block;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.education{
+    display: block;
+    width: 60%;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.more-skill h1{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    /* border-bottom: 1px solid #000; */
+    color: #fc5f9b;
+    padding-left: 15px;  
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.more-skill ul{
+    padding-left: 20px;
+    padding-left: 15px;  
+    padding-bottom: 15px;
+
+}
+
+.more-skill ul li{
+    list-style-type:none;
+    color: rgb(196, 196, 196);
+    padding-top: 6px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.more-skill h4{
+    color: rgb(196, 196, 196);
+
+    padding-top: 10px;
+    padding-left: 15px;  
+
+}
+
+.more-skill p{
+    color: rgb(196, 196, 196);
+
+    padding-left: 15px;  
+
+
+}
+
+.activities ul{
+    padding-left: 30px;
+}
+
+.education h1{
+    padding: 10px;
+    /* background-color: rgb(28, 168, 0); */
+    /* border: 1px solid #000; */
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+}
+
+.education h4{
+    color: rgb(78, 78, 78);
+
+}
+
+.education ul{
+    padding-left: 20px;
+}
+
+.education ul li{
+    list-style-type: none;
+}
+
+.education P{
+    padding-bottom: 10px;
+}
+
+.education h4{
+    padding-top: 10px;
+}
+
+.education i{
+    padding-right: 5px;
+}
+
+.info button{
+    border: none;
+}
+
+.skills{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    /* padding-left: 15px;   */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.skills::before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    /* left: -5px; */
+    background-color: #fc5f9b;
+    transition: .5s;
+}
+
+.skills:hover::before{
+    width: 100%;
+}
+
+.textInbg{
+    position: relative;
+}
+
+.skills:hover > .textInbg h1{
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    color: rgb(255, 255, 255) !important;
+}
+
+.skills:hover > .textInbg ul li{
+    color: #fff;
+}
+
+.activities h1{
+    color:  #a362ea;
+}
+
+.activities{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    /* padding-left: 15px;   */
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+.activities::before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    /* left: -5px; */
+    background-color: #a362ea;
+    transition: .5s;
+}
+
+.activities:hover::before{
+    width: 100%;
+}
+
+.textInbg2{
+    position: relative;
+}
+
+.activities:hover > .textInbg2 h1{
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    color: rgb(255, 255, 255) ;
+}
+
+.activities:hover > .textInbg2 ul li{
+    color: #fff;
+}
+
+.activities:hover > .textInbg2 h4{
+    color: rgb(255, 255, 255);
+}
+
+.activities:hover > .textInbg2 p{
+    color: rgb(255, 255, 255);
+}
+
+.educations .tab{
+    position: relative;
+    background-color: #fff;
+    padding: 0px 20px 20px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.068), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.educations .tab input{
+    appearance: none;
+}
+
+.educations .tab label::after{
+    content: '+';
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.1);
+    transition: transform 1s;
+}
+
+.educations .tab:hover label::after{
+    color: #333;
+}
+
+.educations .tab input:checked ~ label::after{
+    transform: rotate(135deg);
+}
+
+.tab label{
+    display: flex;
+}
+
+.tab h2{
+    background-color: #333;
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.tab h2 i{
+    margin-left: 3px;
+}
+
+.tab label h1{
+    position: relative;
+    font-weight: 500;
+    color: #333;
+    z-index: 10;
+}
+
+.tab .content{
+    max-height: 0;
+    transition: 1s;
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+}
+
+.educations .tab input:checked ~ .content{
+    max-height: 100vh;
+}
+
+.educations .tab input:checked ~ .content h4{
+    color: #fff;
+}
+
+.educations .tab input:checked ~ .content p{
+    color: #fff;
+}
+
+.educations .tab input:checked ~ .content li{
+    color: #fff;
+}
+
+.educations .tab:nth-child(1) label h2{
+    background: linear-gradient(135deg, #70f570, #49c628);
+}
+
+.educations .tab:nth-child(2) label h2{
+    background: linear-gradient(135deg, #3c8ce7, #00eaff);
+}
+
+.educations .tab:nth-child(3) label h2{
+    background: linear-gradient(135deg, #ff96f9, #c32bac);
+}
+
+.educations .tab input:checked ~ label h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 8em;
+    justify-content: flex-end;
+    color: rgb(255,255,255,0.2);
+}
+
+.educations .tab input:checked ~ label h1{
+    color: #fff;
+}
+
+.info tr{
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+}
+
+.transcript{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.text-transcript{
+    width: 100%;
+    height: 130px;
+    /* background-color: rgb(192, 192, 192); */
+    background-color: rgb(0, 174, 255);
+    /* background: linear-gradient(to right, #0066ff -4%, #00ffff 105%); */
+    line-height: 130px;
+    display: flex;
+}
+
+.text-transcript h1{
+    margin-left: 100px;
+    font-size: 30px;
+    /* color: rgb(133, 133, 133); */
+    color: #fff;
+}
+
+
+.table-transcript{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-transcript table{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    /* border-radius: 15px; */
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.table-transcript table tr{
+    height: 50px;
+}
+
+.table-transcript table tr th{
+    color: rgb(255, 255, 255);
+    background-color: #fc5f9b;
+}
+
+.colum{
+    background-color: rgb(233, 233, 233);
+}
+
+/*--------------chart-------------*/
+
+.chart{
+    margin-top: 60px;
+}
+
+.chart h1{
+    text-align: start;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    /* color: rgb(133, 133, 133); */
+    color: rgb(0, 195, 255);
+}
+
+.container-chart{
+    display: flex;
+    position: relative;
+    width: 40%;
+    margin-left: 5%;
+    height: 400px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+.course-chart{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -3%;
+}
+.course-chart p{
+    margin-bottom: 80px;
+    font-size: 15px;
+}
+
+.chart-insert{
+    height: 100%;
+    width: 10px;
+}
+
+.chart-colum{
+    width: 60px;
+    height: 100%;
+    position: relative;
+}
+
+.chart-colum p{
+    position: absolute;
+    top: 102%;
+    left: 40%;
+    color: rgb(90, 90, 90);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.chart-01{
+    background-color: #ff0062;
+    height: 100px;
+    margin-top: 300px;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.chart-02{
+    background-color: #008cff;
+    height: 0px;
+    margin-top: 400px;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.chart-03{
+    background-color: #ffe600;
+    height: 100px;
+    margin-top: 300px;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.chart-04{
+    background-color: #00ffd5;
+    height: 200px;
+    margin-top: 200px;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.chart-05{
+    background-color: #ca00c0;
+    height: 200px;
+    margin-top: 200px;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.chart-06{
+    background-color: #33ff00;
+    height: 0px;
+    margin-top: 400px;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.chart-07{
+    background-color: #ff8800;
+    height: 0px;
+    margin-top: 400px;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.chart-08{
+    background-color: #ff5d5d;
+    height: 0px;
+    margin-top: 400px;
+    /* position: absolute; */
+    bottom: 0;
+}
